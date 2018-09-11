@@ -1,6 +1,6 @@
 
 
-#A DARK THEME FOR SLACK
+# A DARK THEME FOR SLACK
 
 Append the js script to the bottom of /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js, beneath the existing code contained within the file.
 

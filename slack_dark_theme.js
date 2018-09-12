@@ -1,5 +1,5 @@
 
-/* ------------ START DARK THEME ------------ */
+/* ------------ BEGIN DARK THEME ------------ */
 // Everything above this line should be part of the original ssb-interop.js file DO NOT REMOVE IT. 
 // Everything below is safe to edit as needed.
 

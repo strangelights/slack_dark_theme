@@ -80,6 +80,27 @@ document.addEventListener("DOMContentLoaded", function() {
         #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
           background-color: #222222 !important;
         }
+        .reply_input_container .inline_message_input_container .ql-container {
+          border: 1px solid #222222 !important;
+        }
+        #threads_msgs .inline_message_input_container.with_file_upload.focus, #threads_msgs .inline_message_input_container.with_file_upload:active, #threads_msgs .inline_message_input_container.with_file_upload:hover {
+          border-color: #363636 !important;
+        }
+        .modal .ql-editor p {
+          color: #e6e6e6 !important;
+        }
+        .c-dialog__header {
+          background: none !important;  
+        }
+        .c-dialog__footer {
+          background: none !important;  
+        }
+        .c-dialog__title {
+          color: #e6e6e6 !important;
+        }
+        .ReactModal__Overlay--after-open .c-dialog__content {
+          background-color: #363636 !important;
+        }
       `;
       $("<style></style>")
         .appendTo("head")

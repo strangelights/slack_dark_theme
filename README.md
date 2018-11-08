@@ -1,6 +1,6 @@
 
 
-# A Minimalist Dark Theme For the Slack Desktop App
+# A Minimalist Dark Theme for the Slack Desktop App
 
 Copy the script within the slack_dark_theme.js file and append it to the bottom of /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js, beneath the existing code contained within the file, then restart Slack.
 
@@ -12,5 +12,5 @@ If sidebar customization is your thing, try sidebar colors: `#363636,#444A47,#D3
 
 While not necessary for this process, to enable Slack's developer menu enter the following via Terminal: `launchctl setenv SLACK_DEVELOPER_MENU true`, then restart Slack.
 
-Acknowledgements:
+**ACKNOWLEDGEMENTS:**
 This theme builds on the excellent theme created by [@laCour](https://github.com/laCour/) available here: https://github.com/laCour/slack-night-mode

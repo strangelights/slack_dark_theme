@@ -2,7 +2,7 @@
 
 # A Minimalist Dark Theme for the Slack Desktop App
 
-Copy the script within the slack_dark_theme.js file and append it to the bottom of /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js, beneath the existing code contained within the file, then restart Slack.
+Copy the script within the slack_dark_theme.js file and append it to the bottom of `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`, beneath the existing code contained within the file, then restart Slack.
 
 **QUICKTIP:** In Finder (Mac), press Shift + Command + G and paste in the above path into the field and press Go.
 

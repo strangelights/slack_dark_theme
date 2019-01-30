@@ -122,6 +122,12 @@ document.addEventListener("DOMContentLoaded", function() {
         #msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) {
           border-color: #222222;
         }
+        #msg_input.focus + #primary_file_button:not(:hover):not(.active) {
+          border-color: #222222;
+        }
+        #msg_input + #primary_file_button:not(:hover):not(.active) {
+          border-color: #222222;
+        }
         #msg_form #msg_input {
           border-color: #222222; !important;
         }    

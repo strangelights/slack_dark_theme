@@ -101,6 +101,30 @@ document.addEventListener("DOMContentLoaded", function() {
         .ReactModal__Overlay--after-open .c-dialog__content {
           background-color: #363636 !important;
         }
+        .p-threads_footer__input--legacy .p-message_input_field {
+          background-color: #222222 !important;
+        }
+        .p-threads_footer__input--legacy .p-message_input_plus {
+          background-color: #222222 !important;
+        }
+        .p-threads_flexpane__header_channel_name {  
+          color: #e6e6e6 !important;
+        }
+        .p-threads_flexpane__header_permalink:focus, .p-threads_flexpane__header_permalink:hover {
+          color: #e6e6e6 !important;
+        }  
+        .p-threads_footer__input--legacy .p-message_input_field .ql-placeholder {
+          color: #e6e6e6 !important;
+        }
+        #primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover {
+          border-color: #222222; !important;
+        }
+        #msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) {
+          border-color: #222222;
+        }
+        #msg_form #msg_input {
+          border-color: #222222; !important;
+        }    
       `;
       $("<style></style>")
         .appendTo("head")

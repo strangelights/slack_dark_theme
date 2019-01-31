@@ -132,7 +132,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
                 .c-search__view .p-search_file {
                     background-color: #303030 !important;
-                }    
+                }
+                .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .mention_yellow_bg {
+                    color: #222222 !important;
+                    background-color: rgba(212, 171, 13, 0.75) !important;
+                    font-weight: bold !important;
+                    padding: 0px 3px 0px 3px !important;
+                    border-radius: 2px !important;
+                }     
             `;
             $("<style></style>")
                 .appendTo("head")

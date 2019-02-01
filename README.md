@@ -12,9 +12,18 @@ In Finder (Mac), press Shift + Command + G and paste the above path into the fie
 
 Slack's sidebar can be customized independently of this theme within the Preferences menu. If you would like to use the sidebar theme shown in the image above try these colors: 
 
-`#363636,#444A47,#D39B46,#FFFFFF,#434745,#FFFFFF,#99D04A,#DB6668`
+![#363636](https://placehold.it/15/363636/000000?text=+) `#363636`
+![#444A47](https://placehold.it/15/444A47/000000?text=+) `#444A47`
+![#D39B46](https://placehold.it/15/D39B46/000000?text=+) `#D39B46`
+![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF`
+![#434745](https://placehold.it/15/434745/000000?text=+) `#434745`
+![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF`
+![#99D04A](https://placehold.it/15/f03c15/99D04A?text=+) `#99D04A`
+![#DB6668](https://placehold.it/15/DB6668/000000?text=+) `#DB6668`
 
-Simply drop that string of hex values into a channel or private message and Slack will display a "Switch sidebar theme" button to do the work for you.
+Simply drop this string of hex values into a channel or private message and Slack will display a "Switch sidebar theme" button to do the work for you:
+
+`#363636,#444A47,#D39B46,#FFFFFF,#434745,#FFFFFF,#99D04A,#DB6668`
 
 While not necessary for this process, to enable Slack's developer menu enter the following via Terminal, then restart Slack: 
 

@@ -18,7 +18,7 @@ Slack's sidebar can be customized independently of this theme within the Prefere
 ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF`
 ![#434745](https://placehold.it/15/434745/000000?text=+) `#434745`
 ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF`
-![#99D04A](https://placehold.it/15/f03c15/99D04A?text=+) `#99D04A`
+![#99D04A](https://placehold.it/15/99D04A/000000?text=+) `#99D04A`
 ![#DB6668](https://placehold.it/15/DB6668/000000?text=+) `#DB6668`
 
 Simply drop this string of hex values into a channel or private message and Slack will display a "Switch sidebar theme" button to do the work for you:

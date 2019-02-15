@@ -117,15 +117,19 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
                 #primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover {
                     border-color: #222222 !important;
+                    border-right: none !important;
+                    background-color: teal !important;
                 }
                 #msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) {
                     border-color: #222222 !important;
                 }
                 #msg_input.focus + #primary_file_button:not(:hover):not(.active) {
                     border-color: #222222 !important;
+                    border-right: none !important;
                 }
                 #msg_input + #primary_file_button:not(:hover):not(.active) {
                     border-color: #222222 !important;
+                    border-right: none !important;
                 }
                 #msg_form #msg_input {
                     border-color: #222222 !important;
@@ -133,13 +137,24 @@ document.addEventListener("DOMContentLoaded", function() {
                 .c-search__view .p-search_file {
                     background-color: #303030 !important;
                 }
-                .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .mention_yellow_bg {
+                .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .mention_yellow_bg, ts-message .mention, a.c-member_slug--mention, a.c-member_slug--mention:hover {
                     color: #222222 !important;
                     background-color: rgba(212, 171, 13, 0.75) !important;
                     font-weight: bold !important;
                     padding: 0px 3px 0px 3px !important;
                     border-radius: 2px !important;
-                }     
+                    border: 0px solid #222222 !important;
+                }
+                .sli_briefing {
+                    background-color: #323232 !important;
+                }
+                .p-threads_footer__input--legacy .p-message_input_file_button {
+                    background-color: #222222 !important;
+                    border-right: none !important;
+                }
+                .p-threads_footer__input--legacy .p-message_input_file_button.p-message_input_file_button--active, .p-threads_footer__input--legacy .p-message_input_file_button:hover {
+                    border-color: #868686 !important;
+                }
             `;
             $("<style></style>")
                 .appendTo("head")

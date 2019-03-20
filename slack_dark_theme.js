@@ -155,6 +155,33 @@ document.addEventListener("DOMContentLoaded", function() {
                 .p-threads_footer__input--legacy .p-message_input_file_button.p-message_input_file_button--active, .p-threads_footer__input--legacy .p-message_input_file_button:hover {
                     border-color: #868686 !important;
                 }
+                .p_threads_view_load_newer_button, .p_threads_view_load_older_button {
+                    background-color: #363636 !important;
+                    border-left: 1px solid #363636 !important;
+                    border-right: 1px solid #363636 !important;
+                  }
+                  
+                  .p-threads_view__default_background {
+                    background-color: #222222 !important;
+                  }
+                  
+                  .p-threads_view__footer {
+                      border-left: 1px solid #363636 !important;
+                      border-right: 1px solid #363636 !important;
+                      border-bottom: 1px solid #363636 !important;
+                  }
+                  .p-threads_view_root {
+                      border-left: 1px solid #363636 !important;
+                      border-right: 1px solid #363636 !important;
+                      border-top: 1px solid #363636 !important;
+                  }
+                  .c-channel_name__text--inline {
+                    color: #e6e6e6 !important;
+                  }
+                  .p-threads_view_reply {
+                    border-left: 1px solid #363636 !important;
+                    border-right: 1px solid #363636 !important;
+                  }
             `;
             $("<style></style>")
                 .appendTo("head")

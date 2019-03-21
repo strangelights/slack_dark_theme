@@ -2,12 +2,12 @@
 // Everything above this line should be part of the original ssb-interop.js file DO NOT REMOVE IT.
 // Everything below is safe to edit as needed.
 
-document.addEventListener("DOMContentLoaded", function () {
-    $.ajax({
-        url:
-            "https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css",
-        success: function (css) {
-            css += `
+document.addEventListener("DOMContentLoaded", function() {
+  $.ajax({
+    url:
+      "https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css",
+    success: function(css) {
+      css += `
                 div.c-virtual_list__scroll_container {
                     background-color: #222222 !important;
                 }
@@ -199,11 +199,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     border-color: #363636 !important;
                 }
             `;
-            $("<style></style>")
-                .appendTo("head")
-                .html(css);
-        }
-    });
+      $("<style></style>")
+        .appendTo("head")
+        .html(css);
+    }
+  });
 });
 
 /* ------------ END DARK THEME ------------ */

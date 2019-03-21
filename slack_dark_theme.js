@@ -2,7 +2,7 @@
 // Everything above this line should be part of the original ssb-interop.js file DO NOT REMOVE IT.
 // Everything below is safe to edit as needed.
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     $.ajax({
         url:
             "https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css",
@@ -101,7 +101,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     background-color: #363636 !important;
                 }
                 .p-threads_footer__input--legacy .p-message_input_field {
-                    background-color: #222222 !important;
+                    background-color: #363636 !important;
+                    border-color: #363636 !important;
                 }
                 .p-threads_footer__input--legacy .p-message_input_plus {
                     background-color: #222222 !important;
@@ -149,39 +150,54 @@ document.addEventListener("DOMContentLoaded", function() {
                     background-color: #323232 !important;
                 }
                 .p-threads_footer__input--legacy .p-message_input_file_button {
-                    background-color: #222222 !important;
+                    background-color: #363636 !important;
                     border-right: none !important;
+                    border-color: #363636;
                 }
                 .p-threads_footer__input--legacy .p-message_input_file_button.p-message_input_file_button--active, .p-threads_footer__input--legacy .p-message_input_file_button:hover {
                     border-color: #868686 !important;
                 }
                 .p_threads_view_load_newer_button, .p_threads_view_load_older_button {
-                    background-color: #363636 !important;
-                    border-left: 1px solid #363636 !important;
-                    border-right: 1px solid #363636 !important;
-                  }
-                  
-                  .p-threads_view__default_background {
                     background-color: #222222 !important;
-                  }
-                  
-                  .p-threads_view__footer {
-                      border-left: 1px solid #363636 !important;
-                      border-right: 1px solid #363636 !important;
-                      border-bottom: 1px solid #363636 !important;
-                  }
-                  .p-threads_view_root {
-                      border-left: 1px solid #363636 !important;
-                      border-right: 1px solid #363636 !important;
-                      border-top: 1px solid #363636 !important;
-                  }
-                  .c-channel_name__text--inline {
-                    color: #e6e6e6 !important;
-                  }
-                  .p-threads_view_reply {
                     border-left: 1px solid #363636 !important;
                     border-right: 1px solid #363636 !important;
-                  }
+                } 
+                .p-threads_view__default_background {
+                background-color: #222222 !important;
+                }
+                
+                .p-threads_view__footer {
+                    border-left: 1px solid #363636 !important;
+                    border-right: 1px solid #363636 !important;
+                    border-bottom: 1px solid #363636 !important;
+                }
+                .p-threads_view_root {
+                    border-left: 1px solid #363636 !important;
+                    border-right: 1px solid #363636 !important;
+                    border-top: 1px solid #363636 !important;
+                }
+                .c-channel_name__text--inline {
+                    color: #e6e6e6 !important;
+                }
+                .p-threads_view_reply {
+                    border-left: 1px solid #363636 !important;
+                    border-right: 1px solid #363636 !important;
+                }
+                .p-threads_view_reply--new_reply {
+                    background: #222222 !important;
+                }
+                .c-message_kit__labels__label {
+                    color: #e6e6e6 !important;
+                }
+                .c-message_kit__background--labels {
+                    background: #222222 !important;
+                }
+                .p-threads_footer__input--legacy .p-message_input_file_button.p-message_input_file_button--active, .p-threads_footer__input--legacy .p-message_input_file_button:hover {
+                    border-color: #363636 !important;
+                }
+                .p-threads_footer__input .p-message_input_field.focus~.p-message_input_file_button:not(:hover) {
+                    border-color: #363636 !important;
+                }
             `;
             $("<style></style>")
                 .appendTo("head")

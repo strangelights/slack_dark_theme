@@ -198,6 +198,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 .p-threads_footer__input .p-message_input_field.focus~.p-message_input_file_button:not(:hover) {
                     border-color: #363636 !important;
                 }
+                .c-fullscreen_modal__body {
+                    background-color: #125454 !important;
+                }
             `;
       $("<style></style>")
         .appendTo("head")

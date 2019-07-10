@@ -202,7 +202,10 @@ document.addEventListener("DOMContentLoaded", function() {
                     background-color: #125454 !important;
                 }
                 .c-message_attachment__author_name, .c-message_attachment__author_name.c-link--button, .c-message_attachment__author_name.c-link--button:active, .c-message_attachment__author_name.c-link--button:focus, .c-message_attachment__author_name.c-link--button:hover {
-                    color: #e6e6e6; !important;
+                    color: #e6e6e6 !important;
+                }
+                .p-message_pane__search_tip_banner_content {
+                    background-color: #363636 !important;
                 }
             `;
       $("<style></style>")

@@ -201,6 +201,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 .c-fullscreen_modal__body {
                     background-color: #125454 !important;
                 }
+                .c-message_attachment__author_name, .c-message_attachment__author_name.c-link--button, .c-message_attachment__author_name.c-link--button:active, .c-message_attachment__author_name.c-link--button:focus, .c-message_attachment__author_name.c-link--button:hover {
+                    color: #e6e6e6; !important;
+                }
             `;
       $("<style></style>")
         .appendTo("head")

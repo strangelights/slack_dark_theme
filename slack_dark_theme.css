@@ -2392,7 +2392,7 @@ background-color: #222222 !important;
     border-color: #363636 !important;
 }
 .c-fullscreen_modal__body {
-    background-color: #464646 !important;
+    background-color: #868686 !important;
 }
 .c-message_attachment__author_name, .c-message_attachment__author_name.c-link--button, .c-message_attachment__author_name.c-link--button:active, .c-message_attachment__author_name.c-link--button:focus, .c-message_attachment__author_name.c-link--button:hover {
     color: #e6e6e6 !important;
@@ -2418,4 +2418,15 @@ background-color: #222222 !important;
 .p-workspace--classic-nav .p-workspace__primary_view {
     border-top: 9px solid #363636 !important;
 }
-   
+.c-sk-modal_header {
+    background-color: #222222 !important;
+}
+.c-filter_input {
+    background: #222222 !important;
+}
+.c-filter_input__input{
+    background-color: #222222 !important;
+}
+.p-member_profile_card {
+    background-color: #545454 !important;
+}

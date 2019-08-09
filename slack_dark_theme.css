@@ -2417,7 +2417,8 @@ ts-thread .view_all_replies_container:hover {
     border-left: 1px solid #363636 !important;
 }
 .p-workspace--classic-nav .p-workspace__primary_view {
-    border-top: 9px solid #363636 !important;
+    border-top: 1px solid #363636 !important;
+    padding-top: 8px !important;
 }
 .c-sk-modal_header {
     background-color: #222222 !important;
@@ -2448,4 +2449,13 @@ ts-thread .view_all_replies_container:hover {
 }
 .c-message--pinned, .c-message--sli_highlight:not(.c-message--sli_highlight_negative), .c-message--starred {
     background: #222222 !important;
+}
+.p-threads_flexpane__separator_count {
+    color: #616061 !important;
+}
+.p-threads_flexpane__separator {
+    margin-top: 0px important;
+    margin-bottom: 0px important;
+    border-bottom: 8px solid #272727 important;
+    background-color: #272727 !important;
 }

@@ -2352,17 +2352,18 @@ ts-thread .view_all_replies_container:hover {
     border-color: #868686 !important;    
 }
 .p_threads_view_load_newer_button, .p_threads_view_load_older_button {
-    background-color: #222222 !important;
+    background-color: #272727 !important;
     border-left: 1px solid #363636 !important;
     border-right: 1px solid #363636 !important;
 }
-.p-threads_view__default_background {
-background-color: #222222 !important;
+.p-threads_view__default_background {   
+    background-color: #222222 !important;
 }
 .p-threads_view__footer {
     border-left: 1px solid #363636 !important;
     border-right: 1px solid #363636 !important;
     border-bottom: 1px solid #363636 !important;
+    background-color: #272727 !important;
 }
 .p-threads_view_root {
     border-left: 1px solid #363636 !important;
@@ -2428,5 +2429,23 @@ background-color: #222222 !important;
     background-color: #222222 !important;
 }
 .p-member_profile_card {
-    background-color: #545454 !important;
+    background-color: #363636 !important;
+}
+.p-member_profile_name__link, .p-member_profile_name__link:hover {
+    color: #e6e6e6 !important;
+}
+.p-member_profile_field__label {
+    color: #e6e6e6 !important;
+}
+.p-channel_details__members_dialog {
+    background-color: #222222 !important;
+}
+.c-message_kit__message {
+    background-color: #272727 !important;
+}
+.c-icon--times-small:before {
+    color: #616061  !important;
+}
+.c-message--pinned, .c-message--sli_highlight:not(.c-message--sli_highlight_negative), .c-message--starred {
+    background: #222222 !important;
 }

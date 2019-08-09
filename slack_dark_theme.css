@@ -2454,8 +2454,11 @@ ts-thread .view_all_replies_container:hover {
     color: #616061 !important;
 }
 .p-threads_flexpane__separator {
-    margin-top: 0px important;
-    margin-bottom: 0px important;
-    border-bottom: 8px solid #272727 important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    border-bottom: 8px solid #272727 !important;
     background-color: #272727 !important;
+}
+.c-scrollbar__bar {
+    background-color: #222222 !important;
 }

@@ -2513,3 +2513,9 @@ ts-thread .view_all_replies_container:hover {
 .p-member_directory__member_row:focus, .p-member_directory__member_row:focus-within, .p-member_directory__member_row:hover {
     background-color: #363636 !important;
 }
+.p-channel_details__heading {
+    color: #e6e6e6 !important;
+}
+.p-channel_details__created_link, .p-channel_details__created_link:hover {
+    color: #e6e6e6 !important;
+}
